@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <table>
+        <thead><!--제목행-->
+            <tr> <!--tr : 가로줄, td: 세로줄, th : 안에 있는 글자 굵게 ==> 따라서 tr먼저하고 td해야함-->
+                <th><p>dddd</p><p>ddd</p></th>
+                <td style="vertical-align:middle">2</td><!--vertical-align : 상하정렬(top/middle/bottom)-->
+                <td>3</td>
+            </tr>
+        </thead>
+        <tbody><!--일반행-->
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="background-skyblue">
+        <h3 style="padding-left:50px;">Your Shopping Cart</h3>
+        <div class="background-white">
+            <table class="cart-table">
+                <tr>
+                    <td colspan="2" style="text-align:center; padding-left: 60px;;">ITEM</td>
+                    <td>AMOUNT</td>
+                    <td>PRICE</td>
+                    <td>TOTAL</td>
+                </tr>
+                <tr>
+                    <td><img src="./src/pic1.JPG"></td>
+                    <td>
+                        <p><strong>SONY</strong></p>
+                        <p>FE70-200mm F2.8GM OSS</p>
+                    </td>
+                    <td class="amount">1</td>
+                    <td>$1979.00</td>
+                    <td><strong>$1979.00</strong></td>
+                </tr>
+                <tr>
+                    <td><img src="./src/pic2.JPG"></td>
+                    <td>
+                        <p><strong>SONY</strong></p>
+                        <p>Sonnar T*E 24mm F1.8 ZA</p>
+                    </td>
+                    <td class="amount">1</td>
+                    <td>$989.00</td>
+                    <td><strong>$989.00</strong></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right" colspan="5">$2968.00</td>
+                </tr>
+            </table>
+            <button class="btn">구매하기</button>
+            <a href="contactUs.html" class="custom-link">링크</a>
+            <button class="main-btn bg-red">더 알아보기 1</button> <!--css 고수는 뼈대 디자인과 특정 요소에 따른 디자인을 각각 클래스로 만들고 작성한다-->
+            <button class="main-btn bg-blue">더 알아보기 2</button>
+        </div>
+    </div>
+</body>
+</html>

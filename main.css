@@ -1,0 +1,136 @@
+table{
+    border-collapse: collapse; /* 기본적으로 존재하는 테이블 사이의 틈 제거해줌*/
+}
+div,input,textarea {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+p {
+    margin-bottom: 5px;
+}
+.contactUs{
+    width : 50%;
+    display : block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    position : relative;
+}
+.contactUs div{
+    display : block;
+    margin-left : 30px;
+}
+.firstName{
+    width : 40%;
+    float : left;
+}
+.lastName{
+    width : 40%;
+    float : left;
+}
+.message{
+    clear : both;
+    width : 100%;
+    margin-top: 80px;
+}
+.form-background {
+    background-color: black;
+    padding : 30px;
+}
+.form-white {
+    background-color: white;
+    padding : 30px;
+    width : 80%;
+    margin : auto;
+    max-width: 600px;
+}
+.form-input {
+    width : 90%;
+    padding : 10px;
+    font-size : 20px;
+    border : 1px solid black;
+    border-radius : 5px;
+    box-sizing : border-box;
+}
+.w-50{
+    width : 47%;
+    float : left;
+}
+.w-100{
+    width : 100%;
+}
+td, th {
+    border : 1px solid black;
+
+}
+.background-skyblue{
+    width : 60%;
+    background: skyblue;
+    padding : 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.background-white{
+    background-color: white;
+    padding : 50px;
+    width : 90%;
+    margin : auto;
+    max-width: 600px;
+}
+.cart-table {
+    width : 100%;
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+}
+.amount {
+    text-align : right;
+}
+table img {
+    width : 150px;
+    height: 100px;
+}
+.btn{
+    padding : 15px;
+    font-size: 20px;
+    border : none;
+    border-radius: 10px;
+    background-color: coral;
+    color : white;
+    cursor : cell;
+}
+.btn:hover {
+    background-color : chocolate; /*마우스를 올려놓을 때*/
+  }
+.btn:focus {
+    background-color : red; /*클릭 후 계속 포커스 상태일 때*/
+}
+.btn:active {
+    background-color : brown; /*클릭 중일 때*/
+    border : 2px solid black;
+}
+.custom-link {
+    text-decoration: none; /* 링크 밑줄 제거*/
+}
+.custom-link:link{
+    color : violet; /* 방문 전 링크 색상 변경*/
+}
+.custom-link:visited{
+    color : black; /* 방문했던 링크 색상 변경*/
+}
+.main-btn{ /* 뼈대가 되는 버튼 일단 설정*/
+    padding : 15px;
+    font-size: 20px;
+    border : none;
+    cursor : pointer;
+}
+.bg-red{ /* 버튼에 따라 배경색깔만 다르게 해서 css작성*/
+    background-color: red;
+}
+.bg-red{
+    background-color: blue;
+}
